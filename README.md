@@ -10,10 +10,11 @@ An interactive R Shiny application for analyzing crime data in Los Angeles from 
 - **Customizable Filters**: Filter data by date, crime type, area, and more.
 
 ## Data
-The dataset includes 500 crime records with details such as:
+The dataset includes 500 crime records sourced from [Kaggle](https://www.kaggle.com/). 
+
 - **Date and Time**: Precise date and time of the crime (`DATE OCC`, `TIME OCC`).
 - **Location**: Latitude, longitude, and area name (`LAT`, `LON`, `AREA NAME`).
-- **Victim Details**: Age, gender, and descent of victims.
+- **Victim Details**: Age, gender, and descent of victims (`Vict Age`, `Vict Sex`, `Vict Descent`).
 - **Crime Type**: Description and classification of crimes (`Crm Cd Desc`).
 
 ## Technologies Used
@@ -30,10 +31,10 @@ The dataset includes 500 crime records with details such as:
    git clone https://github.com/<a-Tahreem>/CrimeDataInsights.git
 2. Open the project in RStudio 
 3. Install the required R packages:
-     ```bash
-     install.packages(c("shiny", "ggplot2", "dplyr", "FactoMineR", "factoextra", "corrplot", "lubridate", "scales"))
+   ```R
+   install.packages(c("shiny", "ggplot2", "dplyr", "FactoMineR", "factoextra", "corrplot", "lubridate", "scales"))
 4. Run the Shiny app:
-    ```bash
+    ```R
     shiny::runApp()
 
 ## Visualizations
