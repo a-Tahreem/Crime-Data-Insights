@@ -10,7 +10,7 @@ An interactive R Shiny application for analyzing crime data in Los Angeles from 
 - **Customizable Filters**: Filter data by date, crime type, area, and more.
 
 ## Data
-The dataset includes 500 crime records sourced from [Kaggle](https://www.kaggle.com/). 
+The dataset includes 752 911 crime records sourced from [Kaggle](https://www.kaggle.com/). 
 
 - **Date and Time**: Precise date and time of the crime (`DATE OCC`, `TIME OCC`).
 - **Location**: Latitude, longitude, and area name (`LAT`, `LON`, `AREA NAME`).
