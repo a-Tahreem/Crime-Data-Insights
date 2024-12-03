@@ -30,9 +30,11 @@ The dataset includes 500 crime records with details such as:
    git clone https://github.com/<a-Tahreem>/CrimeDataInsights.git
 2. Open the project in RStudio 
 3. Install the required R packages:
-    install.packages(c("shiny", "ggplot2", "dplyr", "FactoMineR", "factoextra", "corrplot", "lubridate", "scales"))
+     ```bash
+     install.packages(c("shiny", "ggplot2", "dplyr", "FactoMineR", "factoextra", "corrplot", "lubridate", "scales"))
 4. Run the Shiny app:
-   shiny::runApp()
+    ```bash
+    shiny::runApp()
 
 ## Visualizations
 
