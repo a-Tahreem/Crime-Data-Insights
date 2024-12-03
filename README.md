@@ -52,3 +52,10 @@ Examples of visualizations provided by the application:
 - Integrate real-time crime data updates from APIs.
 - Expand dataset to include more years and additional features
 - Develop predictive models to identify potential hotspots
+
+## Author
+- **Tahreem ABBASI**
+  Master’s student in Bioinformatics (Université Paris Cité)
+
+## Date
+- October 2024
